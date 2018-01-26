@@ -32,8 +32,10 @@
    ![百度](http://ww2.sinaimg.cn/large/0060lm7Tly1fnuhaerjqpj30af0tn0v3.jpg)
 
    > 參考資料：
-   > 學習 CSS 佈局:  http://zh.learnlayout.com/
-   > MDN: Introduction to HTML:  https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML
+   >
+   > 學習 CSS 佈局:  http://zh.learnlayout.com/ 
+   >
+   > MDN: Introduction to HTML:  https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML 
 
 2. 学习”递归”， 用递归的方式遍历并打印出个三级目录的目录名和文件名;
 
