@@ -6,68 +6,72 @@
 a {
   text-decoration: none; }
 
-@media screen {
-  .profile .profile-cover {
-    width: 100%;
-    height: 344px;
-    overflow: hidden;
-    background-color: #474747; }
-    .profile .profile-cover .profile-cover-img {
-      float: left;
-      height: 344px; }
-  .profile .profile-info-wrap {
-    float: right;
-    margin-top: -52px;
-    margin-right: 9px;
-    height: 76px; }
-    .profile .profile-info-wrap .profile-name {
-      margin-right: 18px;
-      line-height: 65px;
-      vertical-align: top;
-      font-size: 18px;
-      color: #fff;
-      text-shadow: 0 1px 0 #333; }
-    .profile .profile-info-wrap .profile-avatar {
-      box-sizing: border-box;
-      width: 76px;
-      height: 76px;
-      border: 2px solid #fff;
-      box-shadow: 0 0 1.5px #bbb; }
+@media only screen and (min-width: 480px) {
+  .container {
+    margin: 0 auto; } }
+.profile .profile-cover {
+  width: 100%;
+  height: 344px;
+  overflow: hidden;
+  background: url("https://cdn.dribbble.com/users/1164424/screenshots/2910345/black800.png") no-repeat center;
+  background-size: 100%;
+  background-color: #171717; }
+.profile .profile-info-wrap {
+  float: right;
+  margin-top: -52px;
+  margin-right: 10px;
+  height: 76px; }
+  .profile .profile-info-wrap .profile-name {
+    margin-right: 18px;
+    line-height: 65px;
+    vertical-align: top;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0 1px 0 #333; }
+  .profile .profile-info-wrap .profile-avatar {
+    box-sizing: border-box;
+    width: 76px;
+    height: 76px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 1.5px #bbb; }
 
-  .timeline-wrap {
+.container {
+  max-width: 480px; }
+  .container .timeline-wrap {
     margin-top: 49px;
     padding: 0 11px; }
-    .timeline-wrap .timeline .timeline-item {
+    .container .timeline-wrap .timeline .timeline-item {
       margin-top: 13px;
       list-style: none;
       padding-bottom: 12px;
       border-bottom: 1px solid #EEE; }
-      .timeline-wrap .timeline .timeline-item .item-wrap {
+      .container .timeline-wrap .timeline .timeline-item .item-wrap {
         position: relative; }
-        .timeline-wrap .timeline .timeline-item .item-wrap .left-avatar-area {
+        .container .timeline-wrap .timeline .timeline-item .item-wrap .left-avatar-area {
           position: absolute; }
-          .timeline-wrap .timeline .timeline-item .item-wrap .left-avatar-area .friend-avatar {
+          .container .timeline-wrap .timeline .timeline-item .item-wrap .left-avatar-area .friend-avatar {
             width: 42px;
             height: 42px; }
-        .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area {
+        .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area {
           margin-left: 53px; }
-          .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .friend-name {
+          .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .friend-name {
+            line-height: 19px;
             font-size: 15px;
             color: #576B95; }
-          .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .moment-detail {
+          .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .moment-detail {
             margin-top: 9px;
             font-size: 15px;
             line-height: 18px; }
-          .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .pictures-wrap {
+          .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .pictures-wrap {
             margin-top: 12px;
-            width: 250px; }
-            .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .pictures-wrap .single-picture {
+            width: 252px; }
+            .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .pictures-wrap .single-picture {
               height: 102px; }
-            .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .pictures-wrap .nine-pictures {
+            .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .pictures-wrap .nine-pictures {
               width: 79px;
               height: 79px;
               margin: 0 1px 1px 0; }
-          .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .link {
+          .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .link {
             display: block;
             position: relative;
             box-sizing: border-box;
@@ -75,18 +79,18 @@ a {
             padding: 5px;
             height: 50px;
             background-color: #F3F3F5; }
-            .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .link .link-icon {
+            .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .link .link-icon {
               position: absolute;
               width: 40px;
               height: 40px; }
-            .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .link .link-title {
+            .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .link .link-title {
               margin-left: 50px;
               font-size: 14px;
               color: #000; }
-          .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .moment-info {
+          .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .moment-info {
             margin-top: 12px; }
-            .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .moment-info .post-time {
+            .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .moment-info .post-time {
               font-size: 12px;
               color: #737373; }
-            .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .moment-info .btn-more {
-              float: right; } }
+            .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .moment-info .btn-more {
+              float: right; }
