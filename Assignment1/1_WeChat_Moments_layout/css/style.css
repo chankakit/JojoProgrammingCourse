@@ -55,11 +55,12 @@ a {
         .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area {
           margin-left: 53px; }
           .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .friend-name {
-            line-height: 19px;
+            line-height: 18px;
             font-size: 15px;
+            font-weight: 600;
             color: #576B95; }
           .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .moment-detail {
-            margin-top: 9px;
+            margin-top: 8px;
             font-size: 15px;
             line-height: 18px; }
           .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .pictures-wrap {
@@ -88,7 +89,7 @@ a {
               font-size: 14px;
               color: #000; }
           .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .moment-info {
-            margin-top: 12px; }
+            margin-top: 10px; }
             .container .timeline-wrap .timeline .timeline-item .item-wrap .right-detail-area .moment-info .post-time {
               font-size: 12px;
               color: #737373; }
